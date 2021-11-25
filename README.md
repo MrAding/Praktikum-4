@@ -29,7 +29,8 @@ print ('Tambah Data? (ya/tidak)')
 x=input()
 ```
 # Tampilan Codingan :
-![ss codingan 1](https://user-images.githubusercontent.com/46867774/143392046-4feb4521-efb9-4200-a78f-74fa8e6043ef.PNG)
+![ss codingan 1](https://user-images.githubusercontent.com/46867774/143394772-fbebca81-6870-4034-910b-e066eec40b0e.PNG)
+
 
 # Hasil Codingan :
-![ss codingan 2](https://user-images.githubusercontent.com/46867774/143392401-903457e4-6096-492d-b870-737e10b91a4b.PNG)
+![ss codingan 2](https://user-images.githubusercontent.com/46867774/143394817-945f1d7f-4af1-4192-9f0f-cd20c8706a4f.PNG)
