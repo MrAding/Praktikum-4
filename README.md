@@ -9,67 +9,46 @@ Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian
 
 # Codingan
 ```
-nama = input("Masukan Nama:")
-nim = input("Masukan NIM:")
-uts = input("Masukan Nilai UTS:")
-uas = input("Masukan Nilai UAS:")
-tugas = input("Masukan Nilai Tugas:")
-
-print('')
-akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
-
-print("Nama               :",nama)
-print("NIM                :",nim)
-print("Nilai UTS          :",uts)
-print("Nilai UAS          :",uas)
-print("Nilai Tugas        :",tugas)
-print("Nilai Akhir        :",akhir)
-
-print ('')
-print ('Tambah Data? (ya/tidak)')
-x=input()
-```
-# Tampilan Codingan :
-![ss codingan 1](https://user-images.githubusercontent.com/46867774/143394772-fbebca81-6870-4034-910b-e066eec40b0e.PNG)
-
-
-# Hasil Codingan :
-![ss codingan 2](https://user-images.githubusercontent.com/46867774/143394817-945f1d7f-4af1-4192-9f0f-cd20c8706a4f.PNG)
-
-
-
-
-# CODINGAN ACAK
-```
 list_nama = []
 list_nim = []
-list_uts = []
-list_uas = []
 list_tugas = []
-nama = input("Masukan Nama:")
-nim = input("Masukan NIM:")
-uts = input("Masukan Nilai UTS:")
-uas = input("Masukan Nilai UAS:")
-tugas = input("Masukan Nilai Tugas:")
+list_uts =[]
+list_uas = []
+list_akhir = []
+
+data = int(input("Masukkan Banyak Data : "))
+nama = input("Masukkan Nama : ")
+nim = input("Masukkan NIM : ")
+tugas = input("Masukkan Nilai Tugas : ")
+uts = input("Masukkan Nilai UTS : ")
+uas = input("Masukkan Nilai UAS : ")
 
 print('')
-akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+akhir = (int(tugas)* .2) + (int(uts)* .4) + (int(uas)* .4)
 
-print("Nama               :",nama)
-print("NIM                :",nim)
-print("Nilai UTS          :",uts)
-print("Nilai UAS          :",uas)
-print("Nilai Tugas        :",tugas)
-print("Nilai Akhir        :",akhir)
+print("Nama         : ",nama)
+print("NIM          : ",nim)
+print("Nilai Tugas  : ",tugas)
+print("Nilai UTS    : ",uts)
+print("Nilai UAS    : ",uas)
+print("Nilai Akhir  : ",akhir)
 
-print ('')
-print ('Tambah Data? (ya/tidak)')
+print('')
+print('Tambah Data? (Y/N)')
 x=input()
 
-
-
-print("""
-==========================================
-| Nama | NIM | Tugas | UTS | UAS | Akhir | 
-==========================================""")
+print("=========================================================================")
+print("|                    JUMLAH  DATA  TERSIMPAN                            |")
+print("=========================================================================")
+print("|\tNo\t|\tNama\t|\tNIM\t\t|\tTugas\t|\tUTS\t|\tUAS\t|\tAKHIR\t|")
+print("=========================================================================")
+print("|\t1\t|\tAri\t\t|\t1234\t|\t70\t\t|\t65\t|\t80\t|\t72.0\t|")
+print("|\t2\t|\tBambang\t|\t2345\t|\t65\t\t|\t80\t|\t90\t|\t81.0\t|")
+print("=========================================================================")
 ```
+# Tampilan Codingan :
+![codingan 1 praktikum 4](https://user-images.githubusercontent.com/46867774/143882229-54a6c1db-6e6f-4239-867a-a535beccd872.PNG)
+![codingan 2 praktikum 4](https://user-images.githubusercontent.com/46867774/143882235-adb74e95-38c9-4780-a0f1-bbc4ac0f2a6a.PNG)
+
+# Hasil Codingan :
+![output praktikum4](https://user-images.githubusercontent.com/46867774/143882239-b7ec0d56-efd6-4e49-b54a-451bbfd9ae8c.PNG)
