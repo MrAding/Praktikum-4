@@ -16,3 +16,4 @@ print("Nilai Akhir          :",akhir)
 print ('')
 print ('Tambah Data? (ya/tidak)')
 x=input()
+
