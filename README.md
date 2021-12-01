@@ -1,3 +1,8 @@
+```
+Nama  : Ahmad Fadhiil Muttaqin
+NIM   : 312010615
+Kelas : TI.20.A1
+```
 # Tugas Praktikum
 
 Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian sebagai berikut:
